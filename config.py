@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "aed61e5ff8c711895f8b0c99e51c16cc") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = 
-MONGO_URL = getenv("mongodb+srv://mailnewtest1234_db_user:urps1q1RuW4ebVHQ@newclusteruserbot.fob21b9.mongodb.net/")
+MONGO_URL = getenv("mongodb+srv://knight4563:knight4563@cluster0.a5br0se.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://i.ibb.co/RkB0mshb/photo-2026-03-28-18-26-18-7622374658888695856.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
