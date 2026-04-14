@@ -6,19 +6,19 @@ if os.path.exists("local.env"):
     load_dotenv("local.env")
 
 
-API_ID = int(getenv("API_ID", "32228932")) #optional
-API_HASH = getenv("API_HASH", "152e4c828fbc897e927f42894ae9c9f4") #optional
+API_ID = int(getenv("API_ID", "39679517")) #optional
+API_HASH = getenv("API_HASH", "aed61e5ff8c711895f8b0c99e51c16cc") #optional
 
 SUDO_USERS = list(map(int, getenv("SUDO_USERS", "").split()))
 OWNER_ID = 
 MONGO_URL = getenv("mongodb+srv://mailnewtest1234_db_user:urps1q1RuW4ebVHQ@newclusteruserbot.fob21b9.mongodb.net/")
-BOT_TOKEN = getenv("BOT_TOKEN", "8693516129:AAF7GWSZsigxUv82l15K24O_xnfoMJ9kfQ4")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 ALIVE_PIC = getenv("ALIVE_PIC", 'https://i.ibb.co/RkB0mshb/photo-2026-03-28-18-26-18-7622374658888695856.jpg')
 ALIVE_TEXT = getenv("ALIVE_TEXT")
 PM_LOGGER = getenv("PM_LOGGER")
 LOG_GROUP = getenv("LOG_GROUP")
 GIT_TOKEN = getenv("GIT_TOKEN") #personal access token
-REPO_URL = getenv("REPO_URL", "https://github.com/Hellobot-cmd/Eryx-USERBOT.git")
+REPO_URL = getenv("REPO_URL", "https://github.com/uppermooninfinity/Eryx-USERBOT.git")
 BRANCH = getenv("BRANCH", "master") #don't change
  
 STRING_SESSION1 = getenv("STRING_SESSION1", "")
